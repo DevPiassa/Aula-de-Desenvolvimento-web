@@ -1,0 +1,28 @@
+.curriculo{
+    display: grid;
+    max-width: 1000px;
+    
+}
+
+
+
+.Titulo {
+    text-align: center;
+    grid-column: 1 /4;
+    grid-row: 1 / 2;
+    background-color: aqua;
+}
+.foto-perfil {
+    width: 130px;
+    height: 130px;
+    background-color: #555; /* Cor cinza escuro para o círculo da foto */
+    border: 2px solid #333; /* Borda da foto */
+    border-radius: 50%; /* Transforma a div em um círculo */
+    margin-bottom: 1rem; /* Espaço abaixo da foto */
+    background-image: url('caminho/para/sua/foto.jpg');
+    background-size: cover;
+   
+    
+}
+
+
