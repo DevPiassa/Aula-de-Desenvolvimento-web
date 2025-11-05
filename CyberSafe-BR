@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberSafe BR - Segurança Cibernética</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Cabeçalho -->
+  <header class="text-center py-5 bg-primary bg-gradient">
+    <div class="container">
+      <h1 class="fw-bold">CyberSafe BR</h1>
+      <p class="lead text-light">Tudo sobre segurança cibernética, privacidade e proteção digital</p>
+    </div>
+  </header>
+
+  <!-- Seção de Destaque -->
+  <section class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="imagens/hackers.png" alt="Segurança Cibernética" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-info fw-bold">Proteja seus dados e sua privacidade</h2>
+        <p class="text-secondary">Com o aumento dos ataques virtuais, a conscientização sobre segurança digital nunca foi tão importante. Conheça práticas, ferramentas e notícias que ajudam você a se manter protegido.</p>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Últimas Notícias -->
+  <section class="container my-5">
+    <h3 class="text-info mb-4 text-center">Últimas Notícias</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card bg-dark border-info h-100">
+          <img src="imagens/ransomware.png" class="card-img-top" alt="Notícia 1">
+          <div class="card-body">
+            <h5 class="card-title text-info">Ataque de ransomware global</h5>
+            <p class="card-text text-secondary">Empresas do mundo todo sofrem com uma nova onda de ataques que sequestram dados e exigem resgate em criptomoedas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-dark border-info h-100">
+          <img src="imagens/error.png" class="card-img-top" alt="Notícia 2">
+          <div class="card-body">
+            <h5 class="card-title text-info">Falha crítica no Android</h5>
+            <p class="card-text text-secondary">Especialistas alertam para uma vulnerabilidade grave que pode permitir o controle remoto de dispositivos móveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-dark border-info h-100">
+          <img src="imagens/phishing.png" class="card-img-top" alt="Notícia 3">
+          <div class="card-body">
+            <h5 class="card-title text-info">Phishing disfarçado de banco</h5>
+            <p class="card-text text-secondary">Golpes de e-mail estão cada vez mais sofisticados, imitando instituições financeiras para roubar dados pessoais.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dicas de Segurança -->
+  <section class="container my-5">
+    <h3 class="text-info mb-4 text-center">Dicas de Segurança</h3>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="p-4 border border-info rounded-3 h-100">
+          <h5 class="text-info">Use autenticação em dois fatores</h5>
+          <p class="text-secondary">Adicione uma camada extra de proteção para evitar acessos indevidos às suas contas.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 border border-info rounded-3 h-100">
+          <h5 class="text-info">Não clique em links suspeitos</h5>
+          <p class="text-secondary">Sempre verifique o remetente antes de abrir anexos ou clicar em links de e-mails.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 border border-info rounded-3 h-100">
+          <h5 class="text-info">Atualize seus softwares</h5>
+          <p class="text-secondary">Manter o sistema atualizado reduz riscos de falhas exploradas por hackers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4 border-top border-info">
+    <p class="text-secondary mb-0">© 2025 CyberSafe BR — Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
